@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--CSS Links-->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Practis Jquery UI</title>
+  </head>
+  <body>
+    <!--Start Dragable -->
+    <div id="drag" class="widget-content">
+      <p>Drag me around</p>
+    </div>
+    <!--End Dragable -->
+    <!-- Start Droopable -->
+    <div id="draggable" class="Droopable-content">
+      <p>Drag me to my target</p>
+    </div>
+ 
+    <div id="Droopable" class="Droopable-header">
+      <p>Drop here</p>
+    </div>
+    <!-- End Droopable -->
+    <!-- Start Sort -->
+    <div class="sort">
+      <ul id="sortable">
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+      </ul>
+    </div>
+    <!-- End Sort -->
+    <!-- Start Autocomplete -->
+    <div class="auto">
+      <label for="tags">Tags: </label>
+      <input id="tags">
+    </div>
+    <!-- End Autocomplete -->
+    <br>
+    <!-- Start Date Picker -->
+    <div>Date: <input type="text" id="datepicker"></div>
+    <!-- End Date Picker -->
+    <!-- Start Dialog -->
+    <div id="dialog" title="Basic dialog">
+      <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+    </div>
+    <!-- End Dialog -->
+    <!--Start Add Class -->
+    <br>
+    <div class="toggler">
+      <div id="effect" class="ui-corner-all">
+          Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+      </div>
+    </div>
+    <button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+    <!--End Add Class -->
+    <!-- Start Color Animation -->
+    <br><br>
+    <div class="c-toggler">
+      <div id="c-effect" class="ui-widget-content c-ui-corner-all">
+        <h3 class="ui-widget-header c-ui-corner-all">Animate</h3>
+        <p>
+          Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+        </p>
+      </div>
+    </div>
+    <button id="btn" class="ui-state-default c-ui-corner-all">Toggle Effect</button>
+    <!-- End Color Animation -->
+    <!-- Start Effect -->
+    <br>
+    <div class="e-toggler">
+      <div id="e-effect" class="ui-widget-content ui-corner-all">
+        <h3 class="ui-widget-header ui-corner-all">Effect</h3>
+        <p>
+          Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+        </p>
+      </div>
+    </div>
+     <br><br>
+    <select name="effects" id="effectTypes">
+      <option value="blind">Blind</option>
+      <option value="bounce">Bounce</option>
+      <option value="clip">Clip</option>
+      <option value="drop">Drop</option>
+      <option value="explode">Explode</option>
+      <option value="fade">Fade</option>
+      <option value="fold">Fold</option>
+      <option value="highlight">Highlight</option>
+      <option value="puff">Puff</option>
+      <option value="pulsate">Pulsate</option>
+      <option value="scale">Scale</option>
+      <option value="shake">Shake</option>
+      <option value="size">Size</option>
+      <option value="slide">Slide</option>
+      <option value="transfer">Transfer</option>
+    </select>
+     
+    <button id="button-2" class="ui-state-default ui-corner-all">Run Effect</button>
+    <!-- End Effect -->
+    
+
+
+    <!-- JS Links -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
